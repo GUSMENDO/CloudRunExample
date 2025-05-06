@@ -1,0 +1,41 @@
+# Entornos virtuales
+venv/
+.env/
+env/
+ENV/
+
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de editores/IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y bases de datos temporales
+*.log
+*.sqlite3
+
+# Archivos de entorno o secretos
+.env
+.env.*
+
+# Archivos de dependencia
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Otros
+instance/
+.pytest_cache/
+coverage/
+htmlcov/
+*.egg-info/
+dist/
+build/
